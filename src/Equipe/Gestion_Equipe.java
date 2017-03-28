@@ -20,6 +20,7 @@ public class Gestion_Equipe {
 			System.out.println("Faite votre choix parmis les proposition suivantes");
 			System.out.println(" 1 : Ajout d'un Individu");
 			System.out.println(" 2 : Affiche la liste des Individu ");
+			System.out.println(" 9 : Sortir de la selection");
 			System.out.print("Votre choix : ");
 			CHOIX = Clavier.lireInt();
 
@@ -30,6 +31,7 @@ public class Gestion_Equipe {
 
 			case 2 : Equipe.showEquipe();
 			break;
+			
 			default : System.out.println("Cette option n’existe pas ");
 			}
 
