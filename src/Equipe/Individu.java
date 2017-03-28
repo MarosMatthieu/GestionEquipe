@@ -68,7 +68,9 @@ public class Individu {
 		
 		System.out.println("L'individu s'appel "+this.getPrenom()+" "+this.getNom()+" ");
 		System.out.println("Il a "+this.getAge()+" ans");
-		System.out.print("Il est "+this.getShortDesc());
+		System.out.println("Il est "+this.getShortDesc());
+		System.out.println();
+		
 	}
 	
 }
